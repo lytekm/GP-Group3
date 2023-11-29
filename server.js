@@ -18,7 +18,7 @@ mongoose
 
 app.use(express.json());
 app.use(
-  cors({ origin: "https://main--delightful-beijinho-98aa71.netlify.app/" })
+  cors({ origin: "https://main--delightful-beijinho-98aa71.netlify.app" })
 );
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
