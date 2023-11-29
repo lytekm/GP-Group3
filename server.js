@@ -17,9 +17,7 @@ mongoose
   });
 
 app.use(express.json());
-app.use(
-  cors({ origin: "https://main--delightful-beijinho-98aa71.netlify.app" })
-);
+app.use(cors({ origin: "https://dynamovynils.netlify.app" }));
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
 app.use("/api/music", musicRoute);
