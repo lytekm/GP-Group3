@@ -17,7 +17,7 @@ mongoose
   });
 
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(cors({ origin: "https://dynamo-backend.onrender.com" }));
 app.use("/api/auth", authRoute);
 app.use("/api/user", userRoute);
 app.use("/api/music", musicRoute);
